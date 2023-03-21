@@ -49,6 +49,11 @@ button{
     background-color: rgb(246,246,246);
 }
 
+.bk-color-blu{
+    background-color: rgb(114,137,218);
+    color: white;
+}
+
 
 
 
@@ -127,7 +132,7 @@ button{
 .main-div{
     padding-top: 5%;
     padding-bottom: 5%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -141,17 +146,57 @@ button{
 }
 
 .main-span-txt > h2{
-
+    font-size: 40px;
+    padding-top: 40px;
 }
 
 .main-span-txt > p{
-    
+    font-size: 20px;
+    margin: 30px 0;
 }
 
 .even > .main-span-txt{
     padding-right: 50px;
     padding-left: 0px;
 }
+
+#main-footing{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#main-footing > h2{
+    font-size: 40px;
+    padding-top: 70px;
+
+}
+
+#main-footing > p{
+    padding: 20px 0px;
+    line-height: 160%;
+}
+
+#main-footing > img{
+    width: 100%;
+}
+
+#main-foot-title{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+#main-footing > button{
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+
 
 
 

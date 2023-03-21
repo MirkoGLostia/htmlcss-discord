@@ -45,6 +45,10 @@ button{
     color: white;
 }
 
+.bk-color-li-brown{
+    background-color: rgb(246,246,246);
+}
+
 
 
 
@@ -112,8 +116,6 @@ button{
 /* main */
 
 #main-rule{
-    padding-left: 20%;
-    padding-right: 20%;
     text-align: center;
 }
 
@@ -122,7 +124,10 @@ button{
 }
 
 .main-div{
-    padding: 100px 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .even{
@@ -144,7 +149,7 @@ button{
 /* footer */
 
 #footer{
-    background-color: grey;
+    background-color: rgb(35,39,42);
     padding-left: 15%;
     padding-right: 15%;
 }

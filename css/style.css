@@ -1,0 +1,129 @@
+/* general rules */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 10px;
+}
+
+
+
+
+
+/* header */
+
+#container-header{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.nav{
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section-header{
+    margin-top: 100px;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+
+/* main */
+
+#main-rule{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.main-section{
+    flex-wrap: wrap;
+}
+
+.main-div{
+    padding: 100px 0px;
+}
+
+.even{
+    flex-direction: row-reverse;
+}
+
+.main-span-txt{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.even > .main-span-txt{
+    padding-right: 50px;
+    padding-left: 0px;
+}
+
+
+
+/* footer */
+
+#footer{
+    background-color: grey;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer-div-father{
+    justify-content: space-between;
+    padding-top: 50px;
+    border-bottom: solid blue 2px;
+}
+
+.footer-button{
+    float: right;
+}
+
+
+
+
+
+/* Debug */
+
+img{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+a{
+    background-color: green;
+    font-size: 30px;
+}
+
+button{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+#container-header{
+    background-color: blue;
+    min-height: 200px;
+}

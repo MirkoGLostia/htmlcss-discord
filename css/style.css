@@ -208,10 +208,49 @@ button{
     padding-right: 15%;
 }
 
-.footer-div-father{
+.footer-sec-father{
     justify-content: space-between;
     padding-top: 50px;
+    padding-bottom: 30px;
     border-bottom: solid blue 2px;
+}
+
+.foot-sp-div{
+    max-width: 80%;
+}
+
+.footer-div{
+    line-height: 190%;
+}
+
+.footer-div > h4{
+    color: rgb(95,112,166);
+    font-size: 25px;
+}
+
+.footer-div > h5{
+    color: rgb(95,112,166);
+    font-size: 18px;
+}
+
+#language{
+    color: white;
+    font-size: 12px;
+}
+
+#language > img{
+    height: 12px;
+}
+
+
+li > a{
+    color: white;
+    font-size: 12px;
+}
+
+#foo-second-sec{
+    margin-top: 20px;
+    padding-bottom: 50px;
 }
 
 .footer-button{

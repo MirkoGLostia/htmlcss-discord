@@ -93,7 +93,8 @@ button{
     font-size: 20px;
     line-height: 160%;
     text-align: center;
-    padding: 0px 50px;
+    max-width: 950px;
+    margin: 0px auto;
     margin-bottom: 20px;
 }
 
@@ -124,10 +125,10 @@ button{
 }
 
 .main-div{
-    padding-left: 20%;
-    padding-right: 20%;
     padding-top: 5%;
     padding-bottom: 5%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .even{
@@ -137,6 +138,14 @@ button{
 .main-span-txt{
     text-align: left;
     padding-left: 50px;
+}
+
+.main-span-txt > h2{
+
+}
+
+.main-span-txt > p{
+    
 }
 
 .even > .main-span-txt{

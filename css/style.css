@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 body{
@@ -22,6 +23,23 @@ body{
 p{
     margin: 10px;
 }
+
+button{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 30px;
+}
+
+
+
+
+/* background color */
+
+.bk-color-white{
+    background-color: white;
+}
+
 
 
 
@@ -42,6 +60,16 @@ p{
 .nav{
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+}
+
+.header-link{
+    width: 35%;
+    justify-content: space-between;
+}
+
+.header-link > a{
+    color: white;
 }
 
 #section-header{

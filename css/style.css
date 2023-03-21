@@ -242,6 +242,11 @@ button{
     height: 12px;
 }
 
+#foot-icons{
+    color: white;
+    letter-spacing: 25px;
+}
+
 
 li > a{
     color: white;

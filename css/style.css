@@ -30,9 +30,13 @@ p{
 /* header */
 
 #container-header{
+    height: 70vh;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .nav{
@@ -104,7 +108,7 @@ p{
 
 
 /* Debug */
-
+/* 
 img{
     background-color: yellow;
     height: 100px;
@@ -130,4 +134,4 @@ button{
 #container-header{
     background-color: blue;
     min-height: 200px;
-}
+} */
